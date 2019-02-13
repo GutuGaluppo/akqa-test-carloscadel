@@ -1,0 +1,24 @@
+[
+	{
+		"name": "Cotton T-Shirt",
+		"size": "Medium",
+		"unitPrice": 1.99,
+		"qty": 1,
+		"price": 1.99
+	},
+	{
+		"name": "Baseball Cap",
+		"size": "One Size",
+		"unitPrice": 2.99,
+		"qty": 2,
+		"price": 5.98
+	},
+	{
+		"name": "Swim Shorts",
+		"size": "Medium",
+		"unitPrice": 3.99,
+		"qty": 1,
+		"price": 3.99
+	}
+]
+

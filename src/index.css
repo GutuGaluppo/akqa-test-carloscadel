@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: droid-sans, sans-serif, droid-serif, serif;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h2 {
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.App {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.logo {
+  height: 100px;
+}
+table {
+  margin: 30px 20px;
+  border-spacing: 0px;
+}
+.product-name {
+  width: 250px;
+}
+.even-tr {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+button {
+  border: none;
+  outline: none;
+}
+.bin {
+  padding: 5px;
+  border-radius: 3px;
+  height: 20px;
+  cursor: pointer;
+}
+.bin:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.separator {
+  background-color: lightgrey;
+}
+.subtotal-vat {
+  color: grey;
+}
+.total-cost {
+  font-weight: bold;
+}
+.btn-buy.isActive {
+  margin: 30px;
+  font-size: 1.2em;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: hsl(16, 100%, 50%);
+  transition: all 0.15s;
+}
+.btn-buy.isActive:hover {
+  /* background-color: hsl(16, 100%, 55%); */
+  background-color: hsl(152, 47%, 46%);
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+  transition: all 0.15s;
+}
+.btn-buy.isNotActive {
+  margin: 30px;
+  font-size: 1.2em;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: lightgrey;
+  transition: all 0.1s;
+}
+.purchase-alert {
+  padding: 20px 30px;
+  background-color: lightgreen;
+  border-radius: 5px;
+}
